@@ -11,19 +11,32 @@
     width: 50px;
 }
 
+.navbar .navbar-nav .active-link {
+    color: white;
+}
+
 
 /* MAIN */
 
-h1 {
-    padding-top: 80px;
-    text-align: center;
-}
-
-#homepage {
+.hero-image {
     background: url(https://res.cloudinary.com/ddelo2wak/image/upload/v1564154573/backgroundg_slt4jv.jpg) center center no-repeat;
     width: 100vw;
     height: 100vh;
     background-size: cover;
     color: #fff;
     display: flex;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 50px;
+}
+
+.imageerrsss {
+    height: 300px;
+    width: 300px;
 }
