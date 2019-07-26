@@ -1,1 +1,29 @@
 /* This is going to be used for any modified/custom styling */
+
+/* NAVBAR */
+
+.navbar {
+    background-color: rgba(21, 31, 33, 0.5);
+    border-bottom: 1px solid lightgrey;
+}
+
+.imageContainer {
+    width: 50px;
+}
+
+
+/* MAIN */
+
+h1 {
+    padding-top: 80px;
+    text-align: center;
+}
+
+#homepage {
+    background: url(https://res.cloudinary.com/ddelo2wak/image/upload/v1564154573/backgroundg_slt4jv.jpg) center center no-repeat;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+}
