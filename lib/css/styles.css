@@ -252,7 +252,7 @@
   .product__container{
       display: flex;
       flex-flow: row wrap;
-      
+
   }
 
 
@@ -269,5 +269,12 @@
 
 
   /*slider*/
+.slider{
+    padding-left: 50%;
+    padding-top: 15%
 
- 
+}
+
+#homepage{
+    position: relative;
+}
